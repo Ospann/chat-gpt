@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu&display=swap');
+
+* {
+  font-family: 'Press Start 2P', cursive !important;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 55%;
+  height: 90vh;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.header {
+  height: 10vh;
+  align-items: flex-end;
+  padding: 0 22.5%;
+  background-color: white;
+  z-index: 5;
+}
+
+#root {
+  /* background-image: url(https://media.npr.org/assets/img/2023/06/08/detectingai_02_wide-490b899012edf8bee6419139f70e38d991cbd644-s1100-c50.jpg); */
+  background-color: #000;
+}
+
+.search {
+  background-color: rgb(8, 65, 65);
+  display: flex;
+  /* position: absolute; */
+  height: 10vh;
+  gap: 1rem;
+  bottom: 0;
+  width: 100%;
+  align-items: flex-end;
+
+  >input {
+    border-radius: 30px;
+    color:#fff;
+  }
+
+  >img {
+    cursor: pointer;
+  }
+}
